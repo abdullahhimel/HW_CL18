@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+    <!-- Custom CSS -->
+    <link rel="stylesheet"  href="CSS/bootstrap.css">
+    <link rel="stylesheet"  href="CSS/style.css">
+    <link rel="stylesheet"  href="CSS/media.css">
+
+    <title>Bootstrap Components</title>
+  </head>
+  <body>
+    <!-- Breadcrumb -->
+    <nav aria-level="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Home</li>
+      </ol>
+    </nav>
+    <nav aria-level="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Second Page</li>
+      </ol>
+    </nav>
+    <nav aria-level="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="second.html">Second Page</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Third page</li>
+      </ol>
+    </nav>
+    <nav aria-level="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="second.html">Second Page</a></li>
+        <li class="breadcrumb-item"><a href="third.html">Third Page</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Fourth Page</li>
+      </ol>
+    </nav>
+    <!-- Accordion -->
+    <h3>Accordion Flush</h3>
+    <div class="container">
+      <div class="accordion accordion-flush" id="accordionFlush_Example">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse_One" aria-expanded="false" aria-controls="flush-collapse_One">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="flush-collapse_One" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlush_Example">
+            <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlush_Example">
+            <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlush_Example">
+            <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dismissing Alert -->
+    <div class="alert alert-warning alert-dismissing fade show">
+      <strong> Lorem ipsum </strong> dolor sit amet consectetur adipisicing elit. Esse, accusantium!
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-level="close"></button>
+    </div>
+
+    <!-- Badges -->
+    <div class="container">
+      <h1>First Heading <span class="badge bg-primary">One</span></h1>
+      <button type="button" class="btn btn-primary">
+        Notifications <span class=" badge bg-secondary">5</span>
+      </button>
+      <h2>This is <span class="badge bg-danger">Danger</span></h2>
+      <h3>This is <span class="badge bg-success text-dark">Success</span></h3>
+      <h4>This is <span class="badge rounded-pill bg-info">Info</span></h4>
+    </div>
+
+    <!-- Button -->
+    <div class="container">
+      <button type="button" class="btn btn-primary text-nowrap">primary</button>
+      <button type="button" class="btn btn-secondary">secondary</button>
+      <button type="button" class="btn btn-outline-success">success</button>
+    </div>
+    <hr>
+    <div class="container">
+      <button type="button" class="btn btn-primary btn-lg">danger</button>
+      <button type="button" class="btn btn-secondary btn-sm">secondary</button>
+      <button type="button" class="btn btn-danger" disabled>danger</button>
+    </div>
+
+
+
+    <!-- JS links -->
+    <script src="JS/popper.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/script.js"></script>
+    
+  </body>
+</html>
